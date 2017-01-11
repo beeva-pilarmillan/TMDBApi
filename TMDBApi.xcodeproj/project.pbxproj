@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4EFC02DE1E23EA7A0057755F /* Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4EFC02E11E23EA7A0057755F /* Build configuration list for PBXAggregateTarget "Universal" */;
+			buildPhases = (
+				4EFC02E21E23EA870057755F /* Universal Framework */,
+			);
+			dependencies = (
+			);
+			name = Universal;
+			productName = Universal;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4EF316F61E24DF4500D15472 /* Array+Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF316EE1E24DF4500D15472 /* Array+Movie.swift */; };
+		4EF316F71E24DF4500D15472 /* GuestSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF316EF1E24DF4500D15472 /* GuestSessionData.swift */; };
+		4EF316F81E24DF4500D15472 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF316F01E24DF4500D15472 /* MediaItem.swift */; };
+		4EF316F91E24DF4500D15472 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF316F11E24DF4500D15472 /* MovieItem.swift */; };
+		4EF316FA1E24DF4500D15472 /* MultiSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF316F21E24DF4500D15472 /* MultiSearchModel.swift */; };
+		4EF316FB1E24DF4500D15472 /* TVShowEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF316F31E24DF4500D15472 /* TVShowEpisode.swift */; };
+		4EF316FC1E24DF4500D15472 /* TvShowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF316F41E24DF4500D15472 /* TvShowItem.swift */; };
+		4EF316FD1E24DF4500D15472 /* TVShowSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF316F51E24DF4500D15472 /* TVShowSeason.swift */; };
+		4EFC01041E2250A30057755F /* TMDBApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EFC00F61E2250A30057755F /* TMDBApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EFC014A1E2251B00057755F /* FileNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC010F1E2251B00057755F /* FileNetworkOperation.swift */; };
+		4EFC014B1E2251B00057755F /* JSONNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01101E2251B00057755F /* JSONNetworkOperation.swift */; };
+		4EFC014C1E2251B00057755F /* NetworkDataManager+Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01111E2251B00057755F /* NetworkDataManager+Console.swift */; };
+		4EFC014D1E2251B00057755F /* NetworkDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01121E2251B00057755F /* NetworkDataManager.swift */; };
+		4EFC014E1E2251B00057755F /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01131E2251B00057755F /* NetworkOperation.swift */; };
+		4EFC014F1E2251B00057755F /* TMDBHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01141E2251B00057755F /* TMDBHTTPRequest.swift */; };
+		4EFC01501E2251B00057755F /* TMDBResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01151E2251B00057755F /* TMDBResponse.swift */; };
+		4EFC01511E2251B00057755F /* TMDBStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01161E2251B00057755F /* TMDBStatus.swift */; };
+		4EFC01521E2251B00057755F /* TMDBApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01181E2251B00057755F /* TMDBApiConfiguration.swift */; };
+		4EFC01531E2251B00057755F /* TMDBHTTPDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC011A1E2251B00057755F /* TMDBHTTPDataTask.swift */; };
+		4EFC01541E2251B00057755F /* TMDBHTTPInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC011B1E2251B00057755F /* TMDBHTTPInvoker.swift */; };
+		4EFC01551E2251B00057755F /* TMDBHTTPOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC011C1E2251B00057755F /* TMDBHTTPOperation.swift */; };
+		4EFC015E1E2251B00057755F /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01271E2251B00057755F /* JSONParser.swift */; };
+		4EFC015F1E2251B00057755F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01281E2251B00057755F /* SwiftyJSON.swift */; };
+		4EFC016F1E2251B00057755F /* TMDBDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC01401E2251B00057755F /* TMDBDataSource.swift */; };
+		4EFC018A1E22B2060057755F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFC01891E22B2060057755F /* Foundation.framework */; };
+		4EFE93EE1E26CB0B00279BDD /* AuthenticationGuestSessionNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E11E26CB0B00279BDD /* AuthenticationGuestSessionNetworkOperation.swift */; };
+		4EFE93EF1E26CB0B00279BDD /* MovieDetailNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E21E26CB0B00279BDD /* MovieDetailNetworkOperation.swift */; };
+		4EFE93F01E26CB0B00279BDD /* MovieDiscoverNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E31E26CB0B00279BDD /* MovieDiscoverNetworkOperation.swift */; };
+		4EFE93F11E26CB0B00279BDD /* MoviePopularNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E41E26CB0B00279BDD /* MoviePopularNetworkOperation.swift */; };
+		4EFE93F21E26CB0B00279BDD /* MovieRateNetworkOepration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E51E26CB0B00279BDD /* MovieRateNetworkOepration.swift */; };
+		4EFE93F31E26CB0B00279BDD /* MovieSearchNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E61E26CB0B00279BDD /* MovieSearchNetworkOperation.swift */; };
+		4EFE93F41E26CB0B00279BDD /* MultisearchNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E71E26CB0B00279BDD /* MultisearchNetworkOperation.swift */; };
+		4EFE93F51E26CB0B00279BDD /* TVShowDetailNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E81E26CB0B00279BDD /* TVShowDetailNetworkOperation.swift */; };
+		4EFE93F61E26CB0B00279BDD /* TVShowDiscoverNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93E91E26CB0B00279BDD /* TVShowDiscoverNetworkOperation.swift */; };
+		4EFE93F71E26CB0B00279BDD /* TVShowPopularNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93EA1E26CB0B00279BDD /* TVShowPopularNetworkOperation.swift */; };
+		4EFE93F81E26CB0B00279BDD /* TVShowRateNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93EB1E26CB0B00279BDD /* TVShowRateNetworkOperation.swift */; };
+		4EFE93F91E26CB0B00279BDD /* TvShowSearchNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93EC1E26CB0B00279BDD /* TvShowSearchNetworkOperation.swift */; };
+		4EFE93FA1E26CB0B00279BDD /* TVShowSeasonDetailNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93ED1E26CB0B00279BDD /* TVShowSeasonDetailNetworkOperation.swift */; };
+		4EFE93FE1E26CB1800279BDD /* MediaSearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93FB1E26CB1800279BDD /* MediaSearchDataSource.swift */; };
+		4EFE93FF1E26CB1800279BDD /* MoviesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93FC1E26CB1800279BDD /* MoviesDataSource.swift */; };
+		4EFE94001E26CB1800279BDD /* TVShowsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE93FD1E26CB1800279BDD /* TVShowsDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EF316EE1E24DF4500D15472 /* Array+Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Movie.swift"; sourceTree = "<group>"; };
+		4EF316EF1E24DF4500D15472 /* GuestSessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestSessionData.swift; sourceTree = "<group>"; };
+		4EF316F01E24DF4500D15472 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		4EF316F11E24DF4500D15472 /* MovieItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
+		4EF316F21E24DF4500D15472 /* MultiSearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSearchModel.swift; sourceTree = "<group>"; };
+		4EF316F31E24DF4500D15472 /* TVShowEpisode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowEpisode.swift; sourceTree = "<group>"; };
+		4EF316F41E24DF4500D15472 /* TvShowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvShowItem.swift; sourceTree = "<group>"; };
+		4EF316F51E24DF4500D15472 /* TVShowSeason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowSeason.swift; sourceTree = "<group>"; };
+		4EFC00F31E2250A30057755F /* TMDBApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMDBApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFC00F61E2250A30057755F /* TMDBApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDBApi.h; sourceTree = "<group>"; };
+		4EFC00F71E2250A30057755F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFC010F1E2251B00057755F /* FileNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFC01101E2251B00057755F /* JSONNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFC01111E2251B00057755F /* NetworkDataManager+Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkDataManager+Console.swift"; sourceTree = "<group>"; };
+		4EFC01121E2251B00057755F /* NetworkDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDataManager.swift; sourceTree = "<group>"; };
+		4EFC01131E2251B00057755F /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		4EFC01141E2251B00057755F /* TMDBHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBHTTPRequest.swift; sourceTree = "<group>"; };
+		4EFC01151E2251B00057755F /* TMDBResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBResponse.swift; sourceTree = "<group>"; };
+		4EFC01161E2251B00057755F /* TMDBStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBStatus.swift; sourceTree = "<group>"; };
+		4EFC01181E2251B00057755F /* TMDBApiConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBApiConfiguration.swift; sourceTree = "<group>"; };
+		4EFC011A1E2251B00057755F /* TMDBHTTPDataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBHTTPDataTask.swift; sourceTree = "<group>"; };
+		4EFC011B1E2251B00057755F /* TMDBHTTPInvoker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBHTTPInvoker.swift; sourceTree = "<group>"; };
+		4EFC011C1E2251B00057755F /* TMDBHTTPOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBHTTPOperation.swift; sourceTree = "<group>"; };
+		4EFC01271E2251B00057755F /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		4EFC01281E2251B00057755F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4EFC01401E2251B00057755F /* TMDBDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBDataSource.swift; sourceTree = "<group>"; };
+		4EFC01891E22B2060057755F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EFE93E11E26CB0B00279BDD /* AuthenticationGuestSessionNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationGuestSessionNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93E21E26CB0B00279BDD /* MovieDetailNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93E31E26CB0B00279BDD /* MovieDiscoverNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDiscoverNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93E41E26CB0B00279BDD /* MoviePopularNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePopularNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93E51E26CB0B00279BDD /* MovieRateNetworkOepration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRateNetworkOepration.swift; sourceTree = "<group>"; };
+		4EFE93E61E26CB0B00279BDD /* MovieSearchNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSearchNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93E71E26CB0B00279BDD /* MultisearchNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultisearchNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93E81E26CB0B00279BDD /* TVShowDetailNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowDetailNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93E91E26CB0B00279BDD /* TVShowDiscoverNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowDiscoverNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93EA1E26CB0B00279BDD /* TVShowPopularNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowPopularNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93EB1E26CB0B00279BDD /* TVShowRateNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowRateNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93EC1E26CB0B00279BDD /* TvShowSearchNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvShowSearchNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93ED1E26CB0B00279BDD /* TVShowSeasonDetailNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowSeasonDetailNetworkOperation.swift; sourceTree = "<group>"; };
+		4EFE93FB1E26CB1800279BDD /* MediaSearchDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaSearchDataSource.swift; sourceTree = "<group>"; };
+		4EFE93FC1E26CB1800279BDD /* MoviesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesDataSource.swift; sourceTree = "<group>"; };
+		4EFE93FD1E26CB1800279BDD /* TVShowsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowsDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFC00EF1E2250A30057755F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFC018A1E22B2060057755F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EF316ED1E24DF4500D15472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EF316EE1E24DF4500D15472 /* Array+Movie.swift */,
+				4EF316EF1E24DF4500D15472 /* GuestSessionData.swift */,
+				4EF316F01E24DF4500D15472 /* MediaItem.swift */,
+				4EF316F11E24DF4500D15472 /* MovieItem.swift */,
+				4EF316F21E24DF4500D15472 /* MultiSearchModel.swift */,
+				4EF316F31E24DF4500D15472 /* TVShowEpisode.swift */,
+				4EF316F41E24DF4500D15472 /* TvShowItem.swift */,
+				4EF316F51E24DF4500D15472 /* TVShowSeason.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EFC00E91E2250A30057755F = {
+			isa = PBXGroup;
+			children = (
+				4EFC00F51E2250A30057755F /* TMDBApi */,
+				4EFC00F41E2250A30057755F /* Products */,
+				4EFC01881E22B2060057755F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFC00F41E2250A30057755F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC00F31E2250A30057755F /* TMDBApi.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFC00F51E2250A30057755F /* TMDBApi */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC00F61E2250A30057755F /* TMDBApi.h */,
+				4EFC00F71E2250A30057755F /* Info.plist */,
+				4EFC010D1E2251B00057755F /* Api */,
+				4EFC012F1E2251B00057755F /* Data */,
+				4EF316ED1E24DF4500D15472 /* Model */,
+			);
+			path = TMDBApi;
+			sourceTree = "<group>";
+		};
+		4EFC010D1E2251B00057755F /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC010E1E2251B00057755F /* Data */,
+				4EFC01171E2251B00057755F /* Domain */,
+				4EFC01191E2251B00057755F /* HTTPClient */,
+				4EFE93E01E26CB0B00279BDD /* Operations */,
+				4EFC01261E2251B00057755F /* Parser */,
+				4EFC01291E2251B00057755F /* Resources */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		4EFC010E1E2251B00057755F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC010F1E2251B00057755F /* FileNetworkOperation.swift */,
+				4EFC01101E2251B00057755F /* JSONNetworkOperation.swift */,
+				4EFC01111E2251B00057755F /* NetworkDataManager+Console.swift */,
+				4EFC01121E2251B00057755F /* NetworkDataManager.swift */,
+				4EFC01131E2251B00057755F /* NetworkOperation.swift */,
+				4EFC01141E2251B00057755F /* TMDBHTTPRequest.swift */,
+				4EFC01151E2251B00057755F /* TMDBResponse.swift */,
+				4EFC01161E2251B00057755F /* TMDBStatus.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4EFC01171E2251B00057755F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC01181E2251B00057755F /* TMDBApiConfiguration.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4EFC01191E2251B00057755F /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC011A1E2251B00057755F /* TMDBHTTPDataTask.swift */,
+				4EFC011B1E2251B00057755F /* TMDBHTTPInvoker.swift */,
+				4EFC011C1E2251B00057755F /* TMDBHTTPOperation.swift */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		4EFC01261E2251B00057755F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC01271E2251B00057755F /* JSONParser.swift */,
+				4EFC01281E2251B00057755F /* SwiftyJSON.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		4EFC01291E2251B00057755F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4EFC012F1E2251B00057755F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE93FB1E26CB1800279BDD /* MediaSearchDataSource.swift */,
+				4EFE93FC1E26CB1800279BDD /* MoviesDataSource.swift */,
+				4EFC01401E2251B00057755F /* TMDBDataSource.swift */,
+				4EFE93FD1E26CB1800279BDD /* TVShowsDataSource.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4EFC01881E22B2060057755F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC01891E22B2060057755F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EFE93E01E26CB0B00279BDD /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE93E11E26CB0B00279BDD /* AuthenticationGuestSessionNetworkOperation.swift */,
+				4EFE93E21E26CB0B00279BDD /* MovieDetailNetworkOperation.swift */,
+				4EFE93E31E26CB0B00279BDD /* MovieDiscoverNetworkOperation.swift */,
+				4EFE93E41E26CB0B00279BDD /* MoviePopularNetworkOperation.swift */,
+				4EFE93E51E26CB0B00279BDD /* MovieRateNetworkOepration.swift */,
+				4EFE93E61E26CB0B00279BDD /* MovieSearchNetworkOperation.swift */,
+				4EFE93E71E26CB0B00279BDD /* MultisearchNetworkOperation.swift */,
+				4EFE93E81E26CB0B00279BDD /* TVShowDetailNetworkOperation.swift */,
+				4EFE93E91E26CB0B00279BDD /* TVShowDiscoverNetworkOperation.swift */,
+				4EFE93EA1E26CB0B00279BDD /* TVShowPopularNetworkOperation.swift */,
+				4EFE93EB1E26CB0B00279BDD /* TVShowRateNetworkOperation.swift */,
+				4EFE93EC1E26CB0B00279BDD /* TvShowSearchNetworkOperation.swift */,
+				4EFE93ED1E26CB0B00279BDD /* TVShowSeasonDetailNetworkOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EFC00F01E2250A30057755F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFC01041E2250A30057755F /* TMDBApi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EFC00F21E2250A30057755F /* TMDBApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFC01071E2250A30057755F /* Build configuration list for PBXNativeTarget "TMDBApi" */;
+			buildPhases = (
+				4EFC00EE1E2250A30057755F /* Sources */,
+				4EFC00EF1E2250A30057755F /* Frameworks */,
+				4EFC00F01E2250A30057755F /* Headers */,
+				4EFC00F11E2250A30057755F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMDBApi;
+			productName = TMDBApi;
+			productReference = 4EFC00F31E2250A30057755F /* TMDBApi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFC00EA1E2250A30057755F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BEEVA;
+				TargetAttributes = {
+					4EFC00F21E2250A30057755F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					4EFC02DE1E23EA7A0057755F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4EFC00ED1E2250A30057755F /* Build configuration list for PBXProject "TMDBApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EFC00E91E2250A30057755F;
+			productRefGroup = 4EFC00F41E2250A30057755F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFC00F21E2250A30057755F /* TMDBApi */,
+				4EFC02DE1E23EA7A0057755F /* Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFC00F11E2250A30057755F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EFC02E21E23EA870057755F /* Universal Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Universal Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Merge Script\n\n# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\"\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\"\n\n# 5\n# Remove .framework file if exists on Desktop from previous run.\nif [ -d \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\nfi\n\n# 6\n# Copy the device version of framework to Desktop.\ncp -r \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\n\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework.  The device mappings already exist from step 6.\ncp -r \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n\n# 9\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFC00EE1E2250A30057755F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFC015E1E2251B00057755F /* JSONParser.swift in Sources */,
+				4EFE93FF1E26CB1800279BDD /* MoviesDataSource.swift in Sources */,
+				4EF316F71E24DF4500D15472 /* GuestSessionData.swift in Sources */,
+				4EF316FD1E24DF4500D15472 /* TVShowSeason.swift in Sources */,
+				4EFE94001E26CB1800279BDD /* TVShowsDataSource.swift in Sources */,
+				4EFE93F11E26CB0B00279BDD /* MoviePopularNetworkOperation.swift in Sources */,
+				4EFE93F61E26CB0B00279BDD /* TVShowDiscoverNetworkOperation.swift in Sources */,
+				4EFC015F1E2251B00057755F /* SwiftyJSON.swift in Sources */,
+				4EFC01521E2251B00057755F /* TMDBApiConfiguration.swift in Sources */,
+				4EF316F61E24DF4500D15472 /* Array+Movie.swift in Sources */,
+				4EFC016F1E2251B00057755F /* TMDBDataSource.swift in Sources */,
+				4EFC014B1E2251B00057755F /* JSONNetworkOperation.swift in Sources */,
+				4EF316FB1E24DF4500D15472 /* TVShowEpisode.swift in Sources */,
+				4EFC014A1E2251B00057755F /* FileNetworkOperation.swift in Sources */,
+				4EFE93EE1E26CB0B00279BDD /* AuthenticationGuestSessionNetworkOperation.swift in Sources */,
+				4EFC01501E2251B00057755F /* TMDBResponse.swift in Sources */,
+				4EFE93EF1E26CB0B00279BDD /* MovieDetailNetworkOperation.swift in Sources */,
+				4EFE93F71E26CB0B00279BDD /* TVShowPopularNetworkOperation.swift in Sources */,
+				4EFE93F31E26CB0B00279BDD /* MovieSearchNetworkOperation.swift in Sources */,
+				4EF316F91E24DF4500D15472 /* MovieItem.swift in Sources */,
+				4EFE93F01E26CB0B00279BDD /* MovieDiscoverNetworkOperation.swift in Sources */,
+				4EFC014F1E2251B00057755F /* TMDBHTTPRequest.swift in Sources */,
+				4EFE93F91E26CB0B00279BDD /* TvShowSearchNetworkOperation.swift in Sources */,
+				4EFC01541E2251B00057755F /* TMDBHTTPInvoker.swift in Sources */,
+				4EFC014E1E2251B00057755F /* NetworkOperation.swift in Sources */,
+				4EF316FA1E24DF4500D15472 /* MultiSearchModel.swift in Sources */,
+				4EFC014D1E2251B00057755F /* NetworkDataManager.swift in Sources */,
+				4EFE93F81E26CB0B00279BDD /* TVShowRateNetworkOperation.swift in Sources */,
+				4EF316FC1E24DF4500D15472 /* TvShowItem.swift in Sources */,
+				4EFE93F51E26CB0B00279BDD /* TVShowDetailNetworkOperation.swift in Sources */,
+				4EFC01531E2251B00057755F /* TMDBHTTPDataTask.swift in Sources */,
+				4EFE93FA1E26CB0B00279BDD /* TVShowSeasonDetailNetworkOperation.swift in Sources */,
+				4EFC01511E2251B00057755F /* TMDBStatus.swift in Sources */,
+				4EF316F81E24DF4500D15472 /* MediaItem.swift in Sources */,
+				4EFE93F41E26CB0B00279BDD /* MultisearchNetworkOperation.swift in Sources */,
+				4EFE93F21E26CB0B00279BDD /* MovieRateNetworkOepration.swift in Sources */,
+				4EFC01551E2251B00057755F /* TMDBHTTPOperation.swift in Sources */,
+				4EFC014C1E2251B00057755F /* NetworkDataManager+Console.swift in Sources */,
+				4EFE93FE1E26CB1800279BDD /* MediaSearchDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EFC01051E2250A30057755F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EFC01061E2250A30057755F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EFC01081E2250A30057755F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TMDBApi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beeva.TMDBApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4EFC01091E2250A30057755F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TMDBApi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beeva.TMDBApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4EFC02DF1E23EA7A0057755F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EFC02E01E23EA7A0057755F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFC00ED1E2250A30057755F /* Build configuration list for PBXProject "TMDBApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFC01051E2250A30057755F /* Debug */,
+				4EFC01061E2250A30057755F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFC01071E2250A30057755F /* Build configuration list for PBXNativeTarget "TMDBApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFC01081E2250A30057755F /* Debug */,
+				4EFC01091E2250A30057755F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFC02E11E23EA7A0057755F /* Build configuration list for PBXAggregateTarget "Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFC02DF1E23EA7A0057755F /* Debug */,
+				4EFC02E01E23EA7A0057755F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EFC00EA1E2250A30057755F /* Project object */;
+}
